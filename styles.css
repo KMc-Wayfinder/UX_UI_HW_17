@@ -1,0 +1,58 @@
+body{
+  font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+header {
+  background: #f2f2f2;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  color: #000000;
+}
+
+li {
+  list-style-type: none;
+  padding: 20px;
+}
+
+ul {
+  display: flex;
+  border: 1px solid blue;
+  font-family: 'Comfortaa', cursive;
+ 
+}
+
+a {
+  text-decoration: none;
+  padding: 20px;
+  color: #000000;
+
+}
+
+div {
+  border: 1px solid red;
+
+}
+
+nav {
+  border: 1px solid blue;
+  
+}
+
+p {
+  color: #000000;
+  border: 1px solid orange;
+  padding: 10px 20px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  font-weight: bold;
+}
