@@ -1,0 +1,126 @@
+body{
+  /* (sans serif below is the "fallback" use it to see if your fonts are fucky when using a specific font by removing the "serif" or "sans" word. */
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;  
+  background-color: #556069;
+}
+
+#masterContainer {
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: normal;
+  font-family:sans-serif;
+  color: #E1A11B;
+
+}
+
+header {
+  background: #f2f2f2;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  color: #000000;
+}
+
+li {
+  list-style-type: none;
+  padding: 20px;
+}
+
+ul {
+  display: flex;
+ 
+}
+
+a {
+  text-decoration: none;
+  padding: 20px;
+  color: #f2f2f2;
+
+}
+
+div {
+  
+
+}
+
+nav {
+   
+}
+
+p {
+  color: #000000;
+  font-size: 16px;
+}
+
+/* calling a class - use a fucking period "." - thanks mellon :) */
+
+.button {
+  padding: 8px 24px 8px 24px;
+  background-color: #f2f2f2;
+  color: #556069;
+  border: #556069 solid 2px;
+  border-radius: 8px;
+  font-weight: 400;
+}
+
+#heroCard {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 12%;
+  background-color: #f2f2f2;
+  color:#556069;
+  border-radius: 10px;
+  font-weight: medium;
+  overflow: hidden;
+/* overflow: hidden; is to put shit in the proverbial shopping bag. */
+}
+
+/*#heroCard div {
+   this selector means "every div inside of the hero card" 
+
+  width: 50%;
+  float: left;
+
+} */
+
+#heroCard div {
+  flex-basis: 50%;
+
+}
+
+#heroCard h1 {
+  flex-basis: 100%;
+  text-align: center;
+  margin-top: 0;
+  border-bottom: #E1A11B solid 2px;
+}
+
+#heroCard div:nth-of-type(1) h2 {
+  /* h2 inside a div (which happens to be the first div) inside of the hero card */
+color: #E1A11B;
+font-weight: 400;
+}
+
+
+
+/*WTELF???...beware all ye who enter here */
+#section div:nth-of-type(1) h1 {
+  color: #ffffff;
+
+}
